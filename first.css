@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: aquamarine;
+    color: blueviolet;
+    font-family: "Lobster", cursive;
+    font-family: "Poppins", sans-serif;
+  }
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 53px;
+    background-color: black;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  ul li a {
+    text-decoration: none;
+  }
+  ul li a:hover {
+    color: blue;
+    font-size: 1.2rem;
+  }
+  nav ul li {
+    margin: 28px;
+    list-style: none;
+  }
+  main hr {
+    border: 0px;
+    height: 1px;
+    background-color: rgb(5, 5, 106);
+    margin: 11px 50px;
+  }
+  .left {
+    font-size: 1.5rem;
+  }
+  .firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 23px;
+  }
+  .firstsection > div {
+    width: 30%;
+  }
+  .leftsection {
+    /* background-color: white; */
+    font-size: 2rem;
+    margin: 30px 0;
+  }
+  .leftsection .btn {
+    background-color: #8ad3d4;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: black;
+    font-size: 14px;
+    margin: 10px;
+    padding: 12px;
+  }
+  .leftsection .buttons{
+    padding: 12px;
+  }
+  .rightsection img {
+    /* background-color: aliceblue; */
+    width: 80%;
+  }
+
+  .secondsection {
+    max-width: 78vw;
+    margin: auto;
+    height: 150px;
+  }
+  .c {
+    color: rgb(25, 27, 139);
+  }
+  #element {
+    color: rgb(6, 6, 157);
+  }
+  .secondsection .box {
+    background-color: rgb(59, 44, 223);
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+  }
+  .secondsection .verticle {
+    background-color: rgb(15, 15, 136);
+    height: 88px;
+    width: 1px;
+    margin: 0 100px;
+  }
+  .image-top {
+    width: 35px;
+    position: relative;
+    top: -43px;
+    left: -14px;
+  }
+  .verticle-title {
+    position: relative;
+    top: 49px;
+    left: -68px;
+    width: 130px;
+  }
+  .desc {
+    position: relative;
+    width: 150px;
+    top: 54px;
+    left: -66px;
+    color: blue;
+    font-size: 15px;
+  }
+  footer {
+    background-color: rgb(35, 35, 99);
+    position: relative;
+    top: 430px;
+    height: 112px;
+  }
+  .footer ul li {
+    list-style: none;
+  }
+  .footer {
+    display: flex;
+    padding: 23px 123px;
+    justify-content: space-evenly;
+  }
+  footer .footerrights {
+    text-align: center;
+  }
